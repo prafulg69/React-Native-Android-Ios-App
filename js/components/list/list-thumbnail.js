@@ -1,6 +1,19 @@
 import React, { Component } from "react";
 
-import { Container,Header,Title,Content,Button,Icon,List,ListItem,Text,Thumbnail,Left,Body,Right
+import {
+  Container,
+  Header,
+  Title,
+  Content,
+  Button,
+  Icon,
+  List,
+  ListItem,
+  Text,
+  Thumbnail,
+  Left,
+  Body,
+  Right
 } from "native-base";
 
 import styles from "./styles";
@@ -75,7 +88,7 @@ class NHListThumbnail extends Component {
                   <Text numberOfLines={1} note>{data.note}</Text>
                 </Body>
                 <Right>
-                  <Button transparent>
+                  <Button >
                     <Text>View</Text>
                   </Button>
                 </Right>
